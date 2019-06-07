@@ -18,7 +18,7 @@ Chaque niveau surcharge le niveau précédent, donc les valeurs dans .git/config
 
 Votre identité:
 ▪ git config --global user.name "Yahya Youness"
-▪ git config --global user.email you@octo.com
+▪ git config --global user.email yahya.youness.crafts@gmail.com
 
 Votre editeur de texte:
 ▪ git config --global core.editor
