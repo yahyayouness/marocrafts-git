@@ -2,10 +2,12 @@
 
 ## Paramétrage de la configuration
 ```
-### 3 niveaux de fichiers de config
-▪L'option --system à git config lit et écrit dans le fichier /etc/gitconfig : Contient les valeurs pour tous les utilisateurs et tous les dépôts du système.
-▪L'option --global lit et écrit dans le fichier ~/.gitconfig : Spécifique à votre utilisateur.
-▪Fichier config dans le répertoire Git (c'est-à-dire .git/config) du dépôt en cours d'utilisation : spécifique au seul dépôt en cours.
+3 niveaux de fichiers de config
+
+▪ L'option --system à git config lit et écrit dans le fichier /etc/gitconfig : Contient les valeurs pour tous les utilisateurs et tous les dépôts du système.
+▪ L'option --global lit et écrit dans le fichier ~/.gitconfig : Spécifique à votre utilisateur.
+▪ Fichier config dans le répertoire Git (c'est-à-dire .git/config) du dépôt en cours d'utilisation : spécifique au seul dépôt en cours.
+
 Chaque niveau surcharge le niveau précédent, donc les valeurs dans .git/config surchargent celles de /etc/gitconfig.
 ```
 
@@ -13,8 +15,16 @@ Chaque niveau surcharge le niveau précédent, donc les valeurs dans .git/config
 
 ```
 ▪ Git init
+
+Votre identité:
 ▪ git config --global user.name "Yahya Youness"
 ▪ git config --global user.email you@octo.com
+
+Votre editeur de texte:
+
+Votre outil de gestion de différence:
+
+Vos params:
 ▪ git config --global color.ui true
 ```
 
