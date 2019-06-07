@@ -4,10 +4,12 @@
 ```
 3 niveaux de fichiers de config
 
-▪ L'option --system à git config lit et écrit dans le fichier:  sudo vi /usr/local/git/etc/gitconfig :
+▪ L'option --system à git config lit et écrit dans le fichier:  sudo vi /usr/local/git/etc/gitconfig
 Contient les valeurs pour tous les utilisateurs et tous les dépôts du système.
+
 ▪ L'option --global lit et écrit dans le fichier: vi ~/.gitconfig
 Spécifique à votre utilisateur.
+
 ▪ Fichier config dans le répertoire Git (c'est-à-dire .git/config)
 du dépôt en cours d'utilisation : spécifique au seul dépôt en cours.
 
