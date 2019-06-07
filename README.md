@@ -11,7 +11,7 @@
 Chaque niveau surcharge le niveau précédent, donc les valeurs dans .git/config surchargent celles de /etc/gitconfig.
 ```
 
-## Mettre en place son environnement local pour annoter les commits
+## Mettre en place son environnement local
 
 ```
 ▪ Git init
@@ -21,8 +21,10 @@ Votre identité:
 ▪ git config --global user.email you@octo.com
 
 Votre editeur de texte:
+▪ git config --global core.editor
 
 Votre outil de gestion de différence:
+▪ git config --global merge.tool vimdiff
 
 Vos params:
 ▪ git config --global color.ui true
