@@ -1,4 +1,4 @@
-# marocrafts-git
+# marocrafts-git : essentiels de git
 
 ## Paramétrage de la configuration
 ```
@@ -69,7 +69,6 @@ Vos params:
 ▪ git commit -m "added myfile"
 ▪ git status
 ▪ git log
-
 ```
 
 ## Pour supprimer un fichier du repo. : git rm à la place de git add puis commit etc.
@@ -95,9 +94,9 @@ inserer les fichiers à ignorer
 
 ```
 git help
-◉ git help commit
-◉ git help push
-◉ git help <command>
+▪ git help commit
+▪ git help push
+▪ git help <command>
 ```
 
 ## Commits
@@ -115,9 +114,9 @@ déjà été propagé à d’autres repo. où vous aurez un conflit)
 ```
 ▪ Comparer ce qui a été fait :
 ▪ git diff
-• git diff -> montre ce qui a été modifié depuis le dernier commit mais non stagé~ git diff HEAD
-• git diff --cached -> crée un diff entre le staging et le dernier commit de la branche actuelle
-• git diff --shortstat -> afficher une liste des fichiers modifiés avec un compteur sur les lignes
+▪ git diff -> montre ce qui a été modifié depuis le dernier commit mais non stagé~ git diff HEAD
+▪ git diff --cached -> crée un diff entre le staging et le dernier commit de la branche actuelle
+▪ git diff --shortstat -> afficher une liste des fichiers modifiés avec un compteur sur les lignes
 ```
 
 
@@ -134,29 +133,29 @@ fichier
 ▪ git log --stat ▪ lister les fichiers et leurs modifs
 (insertion / suppression)
 ```
-
-git log --pretty=oneline --abbrev-commit --decorate
-○ voir un log raccourci avec une ligne par
+```
+voir un log raccourci avec une ligne par
+▪ git log --pretty=oneline --abbrev-commit --decorate
 commit
 
-● git log -n1 --format="%h"
-○ Voir le short hash du dernier commit
-
+▪ git log -n1 --format="%h"
+▪ Voir le short hash du dernier commit
+```
 
 ## Alias
 
 ```
 > Ajoutez un alias nommé ‘gls’ pour afficher le dernier hash de commit
-● Un alias est un raccourci vers une commande.
-● Définition :
-○ ~/user/.bash_profile
-● Syntaxe :
-○ alias name=”command”
-○ Exemple :
-■ alias gls="git log --oneline --decorate"
+▪ Un alias est un raccourci vers une commande.
+ Définition :
+▪ ~/user/.bash_profile
+Syntaxe :
+▪ alias name=”command”
+ Exemple :
+▪ alias gls="git log --oneline --decorate"
 
-● Utilisation :
-○ gls
+Utilisation :
+▪ gls
 
 alias gaa="git add -A"
 alias gba="git branch -a"
@@ -173,45 +172,52 @@ alias glo='git log --pretty=oneline --abbrev-commit --decor -4'
 
 ## Reset
 
+```
 Si je modifie readme.txt et que je veux le réinitialiser à l’état du dernier commit :
 > git checkout readme.txt
 
-◉ Pour annuler toutes les opérations de staging :
+▪ Pour annuler toutes les opérations de staging :
 > git reset
 
-◉ Pour annuler une opération de staging sur un fichier
+▪ Pour annuler une opération de staging sur un fichier
 > git reset readme.txt
 
-◉ Pour revenir à l’état du dernier commit mais garde tous les fichiers non trackés :
+▪ Pour revenir à l’état du dernier commit mais garde tous les fichiers non trackés :
 > git reset --hard
+```
 
 ## Clone && Pull
 
+```
 Cloner un dépôt distant pour l’avoir en local
 > git clone https://gitlab.com/raiser/formation.git
 
-◉ Voir le dépôt distant qui a été cloné
+▪ Voir le dépôt distant qui a été cloné
 > git remote -v
 
-◉ Mettre à jour votre branche master du dépôt local depuis le dépôt distant (et la
+▪ Mettre à jour votre branche master du dépôt local depuis le dépôt distant (et la
 merger si necessaire)
 > git pull origin master
+```
 
 ## Fetch
 
-◉ Synchroniser les informations sur le repo. distant
+```
+▪ Synchroniser les informations sur le repo. distant
 > git fetch origin
 
-◉ Voir toutes les branches
+▪ Voir toutes les branches
 
 > git branch -a≠≠≠≠≠≠
 
-◉ Voir le retard de votre branche locale sur la branche remote
+▪ Voir le retard de votre branche locale sur la branche remote
 
 > git status
+```
 
 ## Remote
 
+```
 Pour ajouter une référence vers un dépôt remote :
 ▪ git remote add monrepo git@gitlab.com:xxxx/xxxx.git
 ▪ git remote add monrepo https://gitlab.com/xxxx/xxxx.git
@@ -219,4 +225,4 @@ Pour ajouter une référence vers un dépôt remote :
 ▪ Pour supprimer une référence d’un dépôt remote
 
 ▪ git remote remove monrepo
-=====
+```
