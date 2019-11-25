@@ -1,5 +1,27 @@
 # marocrafts-git : essentiels de git
 
+## Git : qu’est-ce que c’est ?
+
+```
+un gestionnaire décentralisé de version de code. Décentralisé parce que c’est ce qui le différencie des autres gestionnaires de gestion de version comme SVN. Décentralisé ici signifie que chaque développeur a tout le code du projet en local sur son poste de travail.
+```
+
+## A quoi sert Git ?
+```
+Enregistrer un même fichier sous diverses versions avec l’idée de garder toutes ces versions pour une utilisation future.
+```
+
+## Pourquoi l’utiliser ?
+```
+Permet la modularisation : Git permet une modularisation aisée de son projet. Que vous soyez sur un projet de petite, moyenne ou grande taille, le besoin est sans cesse présent de développer des fonctionnalités en parallèle. Git permet à l’aide des branches de facilement atteindre vos fins.
+
+Permet d’annuler vos erreurs : dans votre éditeur de code, vous avez l’habitude d’annuler vos modifications (CTRL+Z, CTRL+Y, …). Mais dès que vous fermez l’éditeur, impossible d’annuler ce que vous venez à peine de modifier. Git apporte une solution avec les commits avec la possibilité de passer d’un commit à un autre.
+
+Permet de travailler en mode déconnecté : nous n’avons pas internet à tout moment. Nous ne sommes pas au boulot tout le temps. Mais quand on utilise Git, puisqu’on a tout le code sur notre poste de travail, on peut continuer le développement partout où on sera.
+
+Permet d’éviter des pertes de données : si vous travaillez à plusieurs sur un projet, concilier vos modifications –quand on n’utilise pas un outil moderne– est très critique. Il est difficile à vue d’œil d’identifier les modifications apportées par un collaborateur, de comparer deux fichiers, ou de faire l’intégration de ces modifications. Avec Git, vous identifiez clairement les modifications des autres collaborateurs, ce qu’ils ont ajouté ou retranché, et pourquoi ils l’ont fait. Et lorsque ultérieurement une modification devient critique, vous pouvez repartir en arrière sur une version préalable du fichier grâce à l’historique des modifications.
+```
+
 ## Paramétrage de la configuration
 ```
 3 niveaux de fichiers de config
