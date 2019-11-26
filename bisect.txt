@@ -1,4 +1,4 @@
-CONFLICT PLEASE GIT-BISECT(1)                     Git Manual                     GIT-BISECT(1) 
+PLEASE CONFLICT PLEASE  GIT-BISECT(1)                     Git Manual                     GIT-BISECT(1) 
 
 
 
