@@ -1,4 +1,4 @@
-# marocrafts-git : essentiels de git
+essentiels de git
 
 ## Git : qu’est-ce que c’est ?
 
