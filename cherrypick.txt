@@ -1,5 +1,5 @@
-NAME
-git-cherry-pick - Apply the changes introduced by some existing commits
+ifbjhevbvjhb k vdNAME
+git-cherry-pick -nb  Apply the changes introduced by some existing commits
 
 git cherry-pick [--edit] [-n] [-m parent-number] [-s] [-x] [--ff]
 		  [-S[<keyid>]] <commit>…?
