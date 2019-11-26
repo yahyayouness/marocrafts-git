@@ -1,4 +1,4 @@
-please create Conflict on Essentiels de git
+Essentiels de git
 
 ## Git : qu’est-ce que c’est ?
 
@@ -8,7 +8,8 @@ un gestionnaire décentralisé de version de code. Décentralisé parce que c’
 
 ## A quoi sert Git ?
 ```
-Enregistrer un même fichier sous diverses versions avec l’idée de garder toutes ces versions pour une utilisation future.
+Enregistrer un même fichier sous diverses versions avec l’idée de garder toutes 
+ces versions pour une utilisation future.cool, non?
 ```
 
 ## Pourquoi l’utiliser ?
