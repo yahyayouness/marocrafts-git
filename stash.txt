@@ -1,0 +1,4 @@
+git stash permet de remiser la working area
+
+git stash : pour mettre les modifications en cours dans la remisage 
+git pop : pour récupérer le contenu de la pile
