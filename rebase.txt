@@ -1,0 +1,1 @@
+git rebase : permet de combiner une sequence de commit à une autre base de commit
