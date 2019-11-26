@@ -1,4 +1,4 @@
-create Conflict on Essentiels de git
+Essentiels de git
 
 ## Git : qu’est-ce que c’est ?
 
