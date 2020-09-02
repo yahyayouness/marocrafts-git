@@ -15,13 +15,20 @@ Enregistrer un même fichier sous diverses versions avec l’idée de garder tou
 
 ## Pourquoi l’utiliser ?
 ```
-Permet la modularisation : Git permet une modularisation aisée de son projet. Que vous soyez sur un projet de petite, moyenne ou grande taille, le besoin est sans cesse présent de développer des fonctionnalités en parallèle. Git permet à l’aide des branches de facilement atteindre vos fins.
+Que vous soyez sur un projet de petite, moyenne ou grande taille, le besoin est sans cesse présent de développer des fonctionnalités en parallèle.
+Git permet à l’aide des branches de facilement atteindre vos fins.
 
-Permet d’annuler vos erreurs : dans votre éditeur de code, vous avez l’habitude d’annuler vos modifications (CTRL+Z, CTRL+Y, …). Mais dès que vous fermez l’éditeur, impossible d’annuler ce que vous venez à peine de modifier. Git apporte une solution avec les commits avec la possibilité de passer d’un commit à un autre.
+Permet d’annuler vos erreurs : dans votre éditeur de code, vous avez l’habitude d’annuler vos modifications (CTRL+Z, CTRL+Y, …).
+Mais dès que vous fermez l’éditeur, impossible d’annuler ce que vous venez à peine de modifier.
+Git apporte une solution avec les commits avec la possibilité de passer d’un commit à un autre.
 
-Permet de travailler en mode déconnecté : nous n’avons pas internet à tout moment. Nous ne sommes pas au boulot tout le temps. Mais quand on utilise Git, puisqu’on a tout le code sur notre poste de travail, on peut continuer le développement partout où on sera.
+Permet de travailler en mode déconnecté : nous n’avons pas internet à tout moment.
+Nous ne sommes pas au boulot tout le temps. Mais quand on utilise Git, puisqu’on a tout le code sur notre poste de travail,
+on peut continuer le développement partout où on sera.
 
-Permet d’éviter des pertes de données : si vous travaillez à plusieurs sur un projet, concilier vos modifications –quand on n’utilise pas un outil moderne– est très critique. Il est difficile à vue d’œil d’identifier les modifications apportées par un collaborateur, de comparer deux fichiers, ou de faire l’intégration de ces modifications. Avec Git, vous identifiez clairement les modifications des autres collaborateurs, ce qu’ils ont ajouté ou retranché, et pourquoi ils l’ont fait. Et lorsque ultérieurement une modification devient critique, vous pouvez repartir en arrière sur une version préalable du fichier grâce à l’historique des modifications.
+Permet d’éviter des pertes de données : si vous travaillez à plusieurs sur un projet, concilier vos modifications –quand on n’utilise pas un outil moderne– est très critique.
+Il est difficile à vue d’œil d’identifier les modifications apportées par un collaborateur, de comparer deux fichiers, ou de faire l’intégration de ces modifications.
+Avec Git, vous identifiez clairement les modifications des autres collaborateurs, ce qu’ils ont ajouté ou retranché, et pourquoi ils l’ont fait. Et lorsque ultérieurement une modification devient critique, vous pouvez repartir en arrière sur une version préalable du fichier grâce à l’historique des modifications.
 ```
 
 ## Paramétrage de la configuration
@@ -164,6 +171,32 @@ commit
 
 ▪ git log -n1 --format="%h"
 ▪ Voir le short hash du dernier commit
+```
+## Manipuler des branches
+```
+▪ git branch <nom de la branche> : créer une nouvelle branche
+
+▪ git checkout -b <nom de la branche> : créer une nouvelle branche et se positionner dessus
+
+▪ git checkout <nom de la branche> : changer de branche
+
+▪ git branch : liste les branches locales ainsi que la position de HEAD
+
+▪ git checkout -d <nom de la branche> : supprimer une branche en local
+
+▪ git checkout -D <nom de la branche> : forcer la suppression d'une branche en local indépendamment de si elle est mergée ou non
+```
+## Mettre son travail de coté
+```
+git stash : permet de sauvegarder ses modifications de fichiers sans avoir à créer de commit
+
+git stash list: permet de lister les stashes
+
+git stash apply : intègre le dernier stash dans l’index Git, sans l’enlever de la listes des stashes
+
+git stash pop : intègre le dernier stash dans l’index Git et l’enlève de la listes des stashes
+
+git stash stash@{1} : intègre l’avant dernier stash (stash@{0} étant le dernier stash créé, stash@{1} est du coup l’avant-dernier)
 ```
 
 ## Alias
