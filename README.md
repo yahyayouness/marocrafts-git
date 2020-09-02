@@ -186,6 +186,7 @@ commit
 
 ▪ git checkout -D <nom de la branche> : forcer la suppression d'une branche en local indépendamment de si elle est mergée ou non
 ```
+
 ## Mettre son travail de coté
 ```
 git stash : permet de sauvegarder ses modifications de fichiers sans avoir à créer de commit
@@ -197,6 +198,13 @@ git stash apply : intègre le dernier stash dans l’index Git, sans l’enlever
 git stash pop : intègre le dernier stash dans l’index Git et l’enlève de la listes des stashes
 
 git stash stash@{1} : intègre l’avant dernier stash (stash@{0} étant le dernier stash créé, stash@{1} est du coup l’avant-dernier)
+```
+
+## Interaction avec le repo distant
+```
+git pull --rebase : récupérer l'état de la branche distante + y appliquer les commits locaux
+
+git push --force-with-lease: réécrit la branche distante seulement s’il n’y a pas eu de nouveaux commits sur la branche distante
 ```
 
 ## Alias
