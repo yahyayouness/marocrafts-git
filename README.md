@@ -3,7 +3,9 @@ Essentiels de git
 ## Git : qu’est-ce que c’est ?
 
 ```
-un gestionnaire décentralisé de version de code. Décentralisé parce que c’est ce qui le différencie des autres gestionnaires de gestion de version comme SVN. Décentralisé ici signifie que chaque développeur a tout le code du projet en local sur son poste de travail.
+Un gestionnaire décentralisé de version de code. 
+Décentralisé parce que c’est ce qui le différencie des autres gestionnaires de gestion de version comme SVN.
+Décentralisé ici signifie que chaque développeur a tout le code du projet en local sur son poste de travail.
 ```
 
 ## A quoi sert Git ?
